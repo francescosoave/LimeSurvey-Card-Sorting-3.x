@@ -1,13 +1,16 @@
 # Fork of Card Sorting for LimeSurvey 3.x
 
 **A custom question theme for "card sorting" in LimeSurvey 3.x**
+
 **original: https://github.com/tpartner/LimeSurvey-Card-Sorting-3.x**
 
-![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen1.png)
 ![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen2.png)
+![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen1.png)
 
 **Improved UI for longer sentences**
+
 **Add Placeholders options (see below)**
+
 
 **Implementation:**
 
