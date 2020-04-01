@@ -13,23 +13,6 @@
     Create date - 13/02/2018
 *****/
 
-
-
-@media (max-width: 560px){
-
-	.with-card-sort-question #outerframeContainer {
-		padding: 0 5px;
-	}
-
-	.with-card-sort-question #main-col {
-		padding: 0;
-	}
-
-	.with-card-sort-question div.answer {
-		padding: 0 5px;
-	}
-}
-
 .card-sort-question .questions-list {
 	position: absolute;
 	left: -9999em;
@@ -54,7 +37,7 @@
 }
 
 .card-sort-question .items-start.target-hover {
-	background:#fcfc99;
+	background:#cecece;
 }
 
 /* group wrapper */
