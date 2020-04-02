@@ -1,11 +1,12 @@
-# Fork of Card Sorting for LimeSurvey 3.x
+#Card Sorting for LimeSurvey 3.x
 
 **A custom question theme for "card sorting" in LimeSurvey 3.x**
 
-**original: https://github.com/tpartner/LimeSurvey-Card-Sorting-3.x**
+**fork of: https://github.com/tpartner/LimeSurvey-Card-Sorting-3.x**
 
 ![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen2.png)
 ![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen1.png)
+
 
 **Changes:**
 
@@ -14,6 +15,7 @@
 **- Options now follow mouse scroll**
 
 **- Add Placeholders options (see below)**
+
 
 
 **Implementation:**
@@ -30,16 +32,20 @@
 
 5) Create subquestions as required.
 
-**Placeholder options**
 
-- You can create placeholders to force the user to fill at least a set number of groups
-- First you need to make the answers mandatory (this will make them mandatory for each group)
-- Then create a number of Placeholder options. To be identified as placeholder this options should have a code starting with "Def" such as: Def1, Def2, Def3 and so on.
+**About mandatory options**
 
-For example:
-- I have 10 options and 5 groups. I want users to group the options in AT LEAST 2 groups.
-- First, I set the answers as mandatory. Then I create 3 placeholder options.
-- The user will only be able to submit if every group contains at least 1 answer (because we made it mandatory). Assuming the user wants to only have 2 groups, he/she will then be able to use the placeholders (one for each empty group) and submit the form.
+Assuming you need:
+- all the options to be categorized in your groups
+- at least a certain number of groups must have at least 1 option
+
+You can to do this:
+- set the question as mandatory under *General Options* menu (this will force the user to move all the options in the groups)
+- Add a validation expression to set how many groups must be filled (at least).
+This can be done under *Edit question -> Logic -> Question validation equation*.
+
+The equation is: `countifop("==","1",self.NAOK)>0` for 1 group, `countifop("==","1",self.NAOK)>0 AND countifop("==","2",self.NAOK)>0` for 2 groups and so on..
+
 
 **Notes:**
 
