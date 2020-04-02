@@ -1,5 +1,6 @@
 /*****
-    custom style forked from Tony Partner
+    custom style made by Francesco Soave
+    original credits below
     Licensed MIT, GPL
     Version - 1.0
     Create date - 31/03/2020
@@ -13,6 +14,23 @@
     Create date - 13/02/2018
 *****/
 
+
+/*
+@media (max-width: 560px){
+
+	.with-card-sort-question #outerframeContainer {
+		padding: 0 5px;
+	}
+
+	.with-card-sort-question #main-col {
+		padding: 0;
+	}
+
+	.with-card-sort-question div.answer {
+		padding: 0 5px;
+	}
+}*/
+
 .card-sort-question .questions-list {
 	position: absolute;
 	left: -9999em;
@@ -25,8 +43,10 @@
 
 /* option box */
 .card-sort-question .items-start {
+	position: relative;  /* for the scroll to work */
 	float: left;
 	width: 100%;
+	min-height: 75px;
 	max-width: 500px;
 	margin-top: 8px;
 	border: 1px solid #666;
