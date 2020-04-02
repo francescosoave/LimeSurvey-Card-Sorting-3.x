@@ -7,9 +7,13 @@
 ![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen2.png)
 ![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen1.png)
 
-**Improved UI for longer sentences**
+**Changes:**
 
-**Add Placeholders options (see below)**
+**- Improved UI for longer sentences**
+
+**- Options now follow mouse scroll**
+
+**- Add Placeholders options (see below)**
 
 
 **Implementation:**
