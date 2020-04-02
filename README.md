@@ -13,7 +13,7 @@
 
 **- Options now follow mouse scroll**
 
-
+----
 
 **Implementation:**
 
@@ -29,6 +29,7 @@
 
 5) Create subquestions as required.
 
+----
 
 **About mandatory options**
 
@@ -43,6 +44,7 @@ This can be done under *Edit question -> Logic -> Question validation equation*.
 
 The equation is: `countifop("==","1",self.NAOK)>0` for 1 group, `countifop("==","1",self.NAOK)>0 AND countifop("==","2",self.NAOK)>0` for 2 groups and so on..
 
+----
 
 **Notes:**
 
