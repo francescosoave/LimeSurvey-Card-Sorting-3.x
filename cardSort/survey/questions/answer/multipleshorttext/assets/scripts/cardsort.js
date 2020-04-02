@@ -17,17 +17,9 @@ $(document).on('ready pjax:scriptcomplete',function(){
 				var thisSGQA = $(this).attr('id').replace(/javatbd/, '');
 				var thisCode = $(this).attr('id').split('X'+qID)[1];
 				var thisHTML = $('label', this).html();
-
-				// search for default values
-				if(thisCode.includes("Def")){
-					$('#question'+qID+' div.items-start').append('<div class="defaultOption card draggable" data-sgqa="'+thisSGQA+'" data-code="'+thisCode+'">\
-													'+thisHTML+'\
-												</div>');
-				}else{
-					$('#question'+qID+' div.items-start').append('<div class="card draggable" data-sgqa="'+thisSGQA+'" data-code="'+thisCode+'">\
+				$('#question'+qID+' div.items-start').append('<div class="card draggable" data-sgqa="'+thisSGQA+'" data-code="'+thisCode+'">\
 												'+thisHTML+'\
 											</div>');
-				}
 			});
 
 			// Make the "cards" draggable
