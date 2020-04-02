@@ -14,8 +14,6 @@
 
 **- Options now follow mouse scroll**
 
-**- Add Placeholders options (see below)**
-
 
 
 **Implementation:**
