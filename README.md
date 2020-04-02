@@ -4,8 +4,7 @@
 
 **fork of: https://github.com/tpartner/LimeSurvey-Card-Sorting-3.x**
 
-![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen2.png)
-![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/screen1.png)
+![Image Card Sorting](/cardSort/survey/questions/answer/multipleshorttext/assets/images/cardSorting.png)
 
 
 **Changes:**
